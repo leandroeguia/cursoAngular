@@ -1,4 +1,6 @@
+import { ValueTransformer } from '@angular/compiler/src/util';
 import { Component } from '@angular/core';
+import { Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cursoAngular';
+
+
 }
+
+
