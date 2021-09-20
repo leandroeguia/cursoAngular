@@ -1,0 +1,40 @@
+<div class="text-layout">
+    <h1>Pipes basicos</h1>
+    <p>
+        Pipes incluidos en Angular - Usualmente en el common module
+    </p>
+
+</div>
+
+<div class="p-grid">
+
+    <div class="p-col-4">
+        <p-card header="Uppercase"
+                [subheader]="nombreLower">
+                {{nombreLower | uppercase}}
+        </p-card>
+    </div>
+
+    <div class="p-col-4">
+        <p-card header="TitleCase">
+            
+        </p-card>
+        
+    </div>
+
+    <div class="p-col-4">
+        <p-card>
+            <ul>
+                <li> {{fecha}}</li>
+                <li> {{fecha | date}}</li>
+                <li> {{fecha | date:'short'}}</li>
+            </ul>
+
+        </p-card>
+        
+    </div>
+
+    <div class="p-col-4">
+        
+    </div>
+</div>
