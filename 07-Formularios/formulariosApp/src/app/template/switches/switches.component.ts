@@ -6,15 +6,15 @@ import { Component } from '@angular/core';
   styles: [
   ]
 })
-export class SwitchesComponent {
-
+export class SwitchesComponent  {
 
   persona = {
     genero: 'F',
     notificaciones: true,
   }
 
-  terminosCondiciones : boolean = false;
+  terminosYCondiciones: boolean = false;
+
 
 
 }
