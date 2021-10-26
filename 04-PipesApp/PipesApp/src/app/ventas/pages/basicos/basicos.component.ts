@@ -6,14 +6,12 @@ import { Component } from '@angular/core';
   styles: [
   ]
 })
-export class BasicosComponent  {
+export class BasicosComponent {
 
-  nombreLower :string = 'leandro';
-  nombreUpper :string = 'LEANDRO';
-  nombreCompleto :string = 'leAnDro eGuIa';
+  nombreLower: string = 'fernando';
+  nombreUpper: string = 'FERNANDO';
+  nombreCompleto: string = 'fErNando herRera';
 
-  fecha : Date = new Date();
-
-  
+  fecha: Date = new Date(); // el día de hoy
 
 }

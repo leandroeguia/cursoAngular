@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
@@ -7,25 +6,12 @@ import { PrimeNGConfig } from 'primeng/api';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-
-  constructor( private primeNgConfig : PrimeNGConfig ){
-  }
-
-  ngOnInit(){
-
-      this.primeNgConfig.ripple=true;
-  }
+export class AppComponent implements OnInit {
   
-  title = 'PipesApp';
+  constructor(private primengConfig: PrimeNGConfig) {}
 
-  nombre: string = 'leAnDro eGuIa';
-
-  mostrarNombre(){
-    console.log(this.nombre);
+  ngOnInit() {
+    this.primengConfig.ripple = true;
   }
-
-  
-
 
 }
